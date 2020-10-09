@@ -1,6 +1,6 @@
 # PYNQ RFSoC Workshop
 
-A collection of designs and notebooks for the PYNQ &amp; RFSoC workshop — part of the ZCU111's [v2.4.1 PYNQ image](http://www.pynq.io/board.html).
+A collection of designs and notebooks for the PYNQ &amp; RFSoC workshop — part of the ZCU111's [PYNQ image](http://www.pynq.io/board.html).
 
 <img src="https://github.com/xilinx/pynq_rfsoc_workshop/blob/master/notebooks/assets/preview/preview_qpsk.png" align="left"  width="30%"/>
 <img src="https://github.com/xilinx/pynq_rfsoc_workshop/blob/master/notebooks/assets/preview/preview_sdfec.png" align="left" width="30%"/>
@@ -8,9 +8,9 @@ A collection of designs and notebooks for the PYNQ &amp; RFSoC workshop — part
 
 ## Getting started
 
-These notebooks are already included in the ZCU111's v2.4.1 PYNQ image. The steps to get started with this image are:
+On ZCU111 PYNQ SD card images, these notebooks are already included. The steps to get started with this image are:
 
-  1. Download the "ZCU111 v2.4.1 PYNQ image" file from the [PYNQ website](http://www.pynq.io/board.html).
+  1. Download the "ZCU111 PYNQ image" file from the [PYNQ website](http://www.pynq.io/board.html).
   
   2. Refer to the PYNQ docs for steps to:
      * [burn the image](https://pynq.readthedocs.io/en/latest/appendix.html#writing-the-sd-card) to an SD card, and
@@ -58,7 +58,7 @@ Note that there is a `make install` target that will replace the notebooks with 
     + There is a public forum for PYNQ at https://discuss.pynq.io/, where you can ask (or respond to) questions about this lab and more
   
   * Q: Which version of Vivado was used to build these Overlays?
-    + Vivado 2018.3 was used for all Overlays
+    + Vivado 2020.1 was used for the latest build of Overlays
   
   * Q: There is erroneous or zero data on the receive path in the "PYNQ & Data Converter" notebook
     + Check that the SMA cable is connected to the correct ports on the daughtercard (as shown in this README)
